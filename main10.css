@@ -1,0 +1,34 @@
+.container{
+
+}
+.header{
+    display: flex;
+}
+.listNameInp{
+
+}
+.addListBtn{
+    margin: 0px 10px;
+}
+.completed{
+    margin: 0px 4px;
+}
+.ul{
+    list-style: none;
+    border: 1px solid black;
+
+}
+.lidiv{
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+.task{
+    width: 70%;
+}
+.btn2{
+    width: 20%;
+}
+.chkbox{
+    width: 10%;
+}

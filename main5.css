@@ -1,0 +1,59 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.filter {
+    width: 25vw;
+    display: block;
+    height: 100%;
+    border: 1px;
+}
+
+.product-container{
+    width: 75vw;
+    display: block;
+    height: 100%;
+}
+
+.sort {
+    width: 100%;
+    height:'100px';
+    display: flex;
+}
+
+.sort-text {
+
+}
+
+.rel{
+    margin: 10px;
+}
+
+.low{
+    margin: 10px;
+}
+
+.high{
+    margin: 10px;
+}
+.prods {
+    display:flex;
+    flex-wrap: wrap;
+    border-width: 1px;
+}
+.prod-cob{
+    width: 200px;
+    height: 200px
+}
+.price-cont {
+    margin-top: 10px;
+    height: 50px;
+}
+.brand-cont{
+    height: 50px;
+}
+.color-cont {
+    display: block;
+}

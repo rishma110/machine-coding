@@ -1,0 +1,12 @@
+.container {
+ display: flex;
+}
+.div {
+    background-color: aqua;
+    height: 100px;
+    margin: 10px;
+}
+.dummy {
+    background-color: blue;
+    height: 100px;
+}

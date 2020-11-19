@@ -1,0 +1,46 @@
+.container {
+font-size: 42px;
+}
+
+.form {
+ display: block;
+font-size: 42px;
+}
+
+.card-num {
+    width: 100%;
+    font-size: 42px;
+    margin: 16px;
+}
+
+.expiry {
+    width: 100%;
+    font-size: 42px;
+    margin: 16px;
+}
+
+.cvv {
+    width: 100%;
+    font-size: 42px;
+    margin: 16px;
+}
+
+.submit {
+    margin: 0px auto;
+    width: 50%;
+    font-size: 42px;
+}
+
+.list-container {
+    font-size: 42px;
+}
+
+.liclass{
+    font-size: 42px;
+    display: block; 
+}
+
+.list-div {
+    font-size: 42px;
+    display: flex; 
+}

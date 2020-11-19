@@ -1,0 +1,40 @@
+.container {
+    font-size: 32px;
+}
+
+.count{
+    font-size: 32px;
+    padding: 10px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.listCont{
+    display: block;
+}
+
+.gridCont {
+    width: 50%;
+}
+
+.button-container{
+    display: flex;
+    float: right;
+}
+
+.submit {
+    margin: 10px;
+    background-color: aqua;
+    padding: 10px;
+}
+
+.skip {
+    visibility: hidden;
+    margin: 10px;
+    background-color: red;
+    padding: 10px;
+}

@@ -1,0 +1,16 @@
+.list-container{
+    list-style: none;
+    padding: 0px;
+}
+.list-item{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+    font-size: 42px;
+}
+.submit {
+    background-color: white;
+    font-size: 42px;
+    float: right;
+    width: auto;
+}

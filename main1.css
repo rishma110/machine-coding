@@ -1,0 +1,51 @@
+.table-container {
+    width: 100%;
+    font-size: 42px;
+    text-align: center;
+    border-collapse: collapse;
+}
+.thead {
+    border: 1px solid lightgrey;
+    width: 100%;
+}
+.tbody {
+    width: 100%;
+}
+.t-rows:nth-child(even) {
+    border: 1px solid lightgrey;
+    background-color: lightgrey;
+}
+.t-rows:nth-child(odd){
+    border: 1px solid lightgrey;
+}
+.t-col {
+    border: 1px solid lightgrey;
+    padding: 8px;
+}
+.label{
+    font-size: 32px;
+}
+.submit {
+    margin: auto;
+    margin-top: 16px;
+    width: 160px;
+    text-align: center;
+    padding: 16px;
+    border: 1px solid grey;
+    background-color: lightblue;
+    font-size: 42px;
+}
+.check-box {
+    margin: 36px;
+    padding: 16px;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+}
+.search-bar {
+    width: 100%;
+    font-size: 42px;
+    height: 100px;
+    padding: 8px;
+    margin: 8px;
+}

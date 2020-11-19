@@ -1,0 +1,100 @@
+.container {
+    display: flex;
+    border-bottom:1px solid #eee;
+}
+.prodContainer {
+    width: 30vw;
+    display: block;
+    height: 500px;
+}
+.RRContainer{
+    width: 70vw;
+    display: block;
+    height: auto;
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '\2605';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+.review {
+    font-size:24px;
+    display: block;
+    float: left;
+}
+
+.reviewInp{
+    height: 200px;
+    width: 50vw;
+    margin-bottom: 10px;
+}
+.text{
+    font-size: 24px;
+    float: left;
+}
+.titleInp{
+    height: 50px;
+    width: 50vw;
+}
+.submit {
+    float: right;
+    background-color: #c59b08;
+    padding: 10px;
+}
+.liprod{
+    background-color: grey;
+    padding-top: 10px;
+    margin: 10px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.rateContainer {
+    height: 50px;
+}
+.radiv{
+    width:20px;
+    height: 20px;
+}
+.block{
+    display: block;
+}
+.pul{
+    list-style:none;
+    height: 500px;
+    max-height: 500px;
+    border-right:3px solid #eee;
+    overflow: hidden;
+    overflow-y: scroll;
+}
