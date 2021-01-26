@@ -1,0 +1,21 @@
+.header {
+  text-align: center;
+}
+.tr {
+  border-bottom: 1px solid lightgray;
+}
+.tbody {
+  overflow-x: scroll;
+}
+.table {
+  margin-top: 16px;
+  background-color: aliceblue;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+.select {
+  margin-right: auto;
+  margin-left: auto;
+}
