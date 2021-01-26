@@ -1,0 +1,44 @@
+.main {
+  display: flex;
+}
+
+.ebody {
+  display: none;
+}
+
+.circle {
+  margin: 0px 4px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background-color: #e54065;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.sub-sec {
+  display: flex;
+}
+
+.ebody-vis {
+  border: 1px solid grey;
+  margin: 8px 16px;
+  padding: 4px;
+  flex: 3;
+  display: block;
+  border-radius: 8px;
+}
+
+.elist {
+  flex: 1;
+  padding: 0px;
+  margin: 0px;
+}
+
+.li {
+  list-style: none;
+  border: 1px solid grey;
+  margin: 8px 0px;
+  padding: 4px;
+  border-radius: 8px;
+}

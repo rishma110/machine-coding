@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+}
+.theader {
+  background: lightgray;
+}
+.tr {
+  border-bottom: 1px solid lightgray;
+  margin: 8px;
+}
+.td {
+  border-right: 1px solid lightgray;
+}
+.tbody {
+  text-align: center;
+}
+.table {
+  margin: 16px;
+  border-collapse: collapse;
+  table-layout: auto;
+  width: 100%;
+}
+.showsel {
+  padding: 16px;
+  float: right;
+}
+.done {
+  float: right;
+}

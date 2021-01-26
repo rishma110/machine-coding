@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+.main {
+}
+.table {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+.td {
+  border-right: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  text-align: center;
+}
+.tr {
+  border-bottom: 1px solid lightgray;
+}
+.button {
+  width: 40px;
+  height: 40px;
+}
+.theader {
+  background-color: lightcoral;
+}

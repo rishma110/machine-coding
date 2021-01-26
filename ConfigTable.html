@@ -10,21 +10,33 @@
  <body>
      <article>
          <header id="header" class="header">
-             <button class="button" id="prev"> < </button>
-             <p  id="month"></p>
-             <button class="button" id="next"> > </button>
+             <input placeholder="search" id="search">
+            </input>
+            <label for="showsel">show selected</label>
+             <input id="showsel" class="showsel" type="checkbox" ></input>
              </header>
          <section id="main" class="main">
              <table class="table">
                  <thead class="theader">
-                     
+                     <th></th>
+                     <th>
+                         Key
+                     </th>
+                     <th>
+                        Value
+                    </th>
+                    <th>
+                        Description
+                    </th>
                     </thead>
                     <tbody class="tbody" id="tbody">
 
                     </tbody>
              </table>
          </section>
-         
+         <footer>
+             <button class="done" id="done">Done</button>
+         </footer>
      </article>
  </body>
 </html>
