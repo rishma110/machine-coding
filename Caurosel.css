@@ -1,0 +1,70 @@
+.body {
+  margin: 0px;
+}
+.container {
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+}
+
+.chat-li {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+}
+
+.chat-li-r {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-end;
+}
+
+.chatList {
+  list-style: none;
+  padding: 0px;
+}
+.p-left {
+  padding: 8px;
+  background-color: aliceblue;
+}
+.p-right {
+  padding: 8px;
+  background-color: aqua;
+}
+.ul {
+  height: 100%;
+  padding: 0px;
+  text-align: center;
+}
+.li {
+  list-style: none;
+  border-bottom: 1px solid lightgray;
+  height: 50px;
+  display: flex;
+  padding-left: 16px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.aside {
+  height: 100vh;
+  margin: 0px;
+  width: 30%;
+  border-right: 1px solid lightgray;
+}
+.main {
+  width: 70%;
+  height: 100%;
+  overflow: auto;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 70%;
+  display: flex;
+}
+.inp {
+  width: 100%;
+}
+.send {
+}
