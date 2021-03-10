@@ -302,7 +302,7 @@ const drawFiveCards = () => {
   } else {
     let counter = 0;
     while (counter < 5) {
-      let ind = Math.floor(Math.random() * array.length - 1);
+      let ind = Math.floor(Math.random() * array.length);
       if (arr.indexOf(ind) < 0) {
         arr.push(ind);
         counter++;
