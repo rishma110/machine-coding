@@ -80,7 +80,7 @@ const calendarObj = (() => {
       let frow = document.createElement("tr");
       frow.setAttribute("class", "tr");
       let counter = 0;
-      let start = 1;
+      let start = 0;
       while (counter <= 6) {
         let td = document.createElement("td");
         td.setAttribute("class", "td");
